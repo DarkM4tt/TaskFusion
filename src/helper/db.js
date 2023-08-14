@@ -11,14 +11,14 @@ export const connectDB = async () => {
     // console.log("Connected with: " + connection.host);
 
     //Creating new User
-    const user = new User({
-      name: "Test test",
-      email: "test@gmail.com",
-      password: "testpassword",
-      about: "this is testing",
-    });
+    // const user = new User({
+    //   name: "Test test",
+    //   email: "test@gmail.com",
+    //   password: "testpassword",
+    //   about: "this is testing",
+    // });
 
-    await user.save();
+    // await user.save();
     console.log("User is created");
   } catch (error) {
     console.log("Failed to connect with database");
